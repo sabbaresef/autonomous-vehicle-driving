@@ -1,0 +1,46 @@
+{
+  "sensors" : ["rgb", "depth"],
+
+  "training" : true,
+
+  "balancing" : false,
+
+  "training_set" : "/user/fsabbarese/dataset_20/training/",
+  "validation_set" : "/user/fsabbarese/dataset_20/validation/",
+  "test_set" : "",
+
+  "augmentation" : false,
+  "prob_augmentation" : 0.00,
+  "flip" : false,
+  "prob_flip" : 0.0, 
+
+  "input_shape" : [88,200,4],
+  "net" : "ResNet34",
+  "model" : "Multichannel",
+
+  "filepath_weight_preload" : "",
+  "perception_preload_weights" : "imagenet",
+
+  "weights" : [0.50, 0.45, 0.05, 0.08, 0.92],
+  
+  "optimizer" : "adam",
+  "batch_size" : 128,
+  "earlystop_patience" : 150,
+  "val_batch_size" : 128,
+  "epochs" : 500,
+  "initial_epochs" : 0,
+  "speed_factor" : 12.0,
+
+  "learning_rate" : 0.0002, 
+
+  "reduce_lr" : true,
+  "factor" : 0.5, 
+  "lr_patience" : 7, 
+  "min_delta" : 0.0009, 
+  "min_lr" : 0.00000001, 
+
+
+  "filepath_experiment" : "../experiments/", 
+  "experiment_name" : "Resnet34_RGBD_128_batch_10h_training_5h_validation_prelu_speed_conv1_sfactor"
+}
+

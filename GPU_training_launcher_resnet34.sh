@@ -1,0 +1,3 @@
+configuration_folder="configuration_ResNet34"
+nohup python3 main.py --configuration=./$configuration_folder/Resnet34_RGBD_128_batch_10h_training_5h_balanced_validation_linear.json > Resnet34_RGBD_128_batch_10h_training_5h_balanced_validation_linear.txt &
+

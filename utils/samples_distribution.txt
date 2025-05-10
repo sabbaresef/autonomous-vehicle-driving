@@ -1,0 +1,8 @@
+Clear Noon: 237906
+After Rain Noon: 199440
+Heavy Rain Noon: 213903
+Clear Sunset: 240642
+Follow Lane: 261000
+Left: 172479
+Right: 219675
+Go Straigh: 238737

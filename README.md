@@ -99,3 +99,9 @@ In the second, classical transformations are implemented.
 
 You can find Automold library on the following page:  
 [https://github.com/UjjwalSaxena/Automold--Road-Augmentation-Library](https://github.com/UjjwalSaxena/Automold--Road-Augmentation-Library)
+
+
+## TRAINED MODELS
+
+You can find trained models here:
+`./driving_benchmarks/version084/carla/agent/cil_agent/models/weights/`

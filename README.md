@@ -1,5 +1,13 @@
 # MULTIMODAL END-TO-END DRIVING THROUGH CONDITIONAL IMITATION LEARNING
 
+## SETUP
+
+Before running training or dataset operations, make sure to set up your Python environment installing packages:
+
+```
+pip install -r requirements.txt
+```
+
 ## TRAINING
 
 To launch a training:
